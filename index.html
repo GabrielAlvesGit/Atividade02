@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--1º Conectar o styler no html (chamar)-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Atividada02</title>
+</head>
+
+<body>
+    <!--Criando um container para pegar topo, menu e rodape-->
+    <div class="container">
+
+
+        <!--Topo-->
+        <header>
+            <!--Add: H1 Tema principal-->
+            <h1>Landing Page</h1>
+            <!--Small: Deixar a letra pequena de baixo do texto-->
+            <small>Seja bem vindos a minha landing page </small>
+        </header>
+
+        <!--Nav: Haba de navegação (para criar um redirecionamento de pagina)-->
+        <nav>
+            <ul>
+                <!--LI: criar lista / href: direcionamento para paginas-->
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Serviços</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <h2>Nossos Produtos</h2>
+        </section>
+
+        <!--Main:div que google entende-->
+        <main>
+            <!--Abrir uma div para caixa ou box
+            src: caminho da imagem 
+            alt: se não aparecer a imagem para o usurio, mostra essa mensagem
+            height: altura da imagem
+            width: largura da imagem
+            linha: serve para segura as caixa no css
+            colunacaixa: serpara para segura as caixa -->
+            <div class="linhacaixa">
+                <div class="colunacaixa">
+                    <img src="img/images.jfif" alt="Produto.Erro" height="200" width="250">
+                    <!--Colocando um texto dentro do box-->
+                    <h4>Pr</h4>
+                    <p>Texto para Digitar</p>
+                </div>
+                <div class="colunacaixa">
+                    <img src="img/images.jfif" alt="Produto.Erro" height="200" width="250">
+                    <!--Colocando um texto dentro do box-->
+                    <h4>Pr</h4>
+                    <p>Texto para Digitar</p>
+                </div>
+            </div>
+        </main>
+
+        <section>
+            <h2>Nossos Serviços</h2>
+        </section>
+        <section>
+            <!--chamamos um div "linhacoluna" para manipular depois-->
+            <div class="linhacaixa">
+                <!--Abrimos a caixacoluna, para chamar na manipulação no css-->
+                <div class="colunacaixa">
+                    <img src="img/images.jfif" alt="Produto.Erro" height="200" width="250">
+                    <!--Colocando um texto dentro do box-->
+                    <h4>Pr</h4>
+                    <p>Texto para Digitar</p>
+                </div>
+                <div class="colunacaixa">
+                    <img src="img/images.jfif" alt="Produto.Erro" height="200" width="250">
+                    <!--Colocando um texto dentro do box-->
+                    <h4>Pr</h4>
+                    <p>Texto para Digitar</p>
+                </div>
+                <div class="colunacaixa">
+                    <img src="img/images.jfif" alt="Produto.Erro" height="200" width="250">
+                    <!--Colocando um texto dentro do box-->
+                    <h4>Pr</h4>
+                    <p>Texto para Digitar</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Faça seu cadastro e entramos em contato com você</h2>
+        </section>
+
+        <form  action="#" method="POST" class="formulario">
+            <!--Mesmo padrão -->
+            <div class="linhacaixa">
+                <div class="semlinha mr">
+                    <div class="colunacaixa2">
+                        <!--Colocando nome do Titulo da caixa-->
+                        <label for="nomeTxt">Nome completo</label>
+                        <input type="text" name="nomeTxt" id="nomeTxt" class="campo" placeholder="Nome completo"
+                            maxlength="50" readonly
+                            style="border-color: rgb(255, 0, 0); border-width: 3px; border-style: solid;">
+                    </div>
+                    <div class="colunacaixa2 ml">
+                        <!--Colocando nome do Titulo da caixa-->
+                        <label for="nomeTxt">Email</label>
+                        <input type="text" name="nomeTxt" id="nomeTxt" class="campo" placeholder="Digite seu Email"
+                            maxlength="50" readonly
+                            style="border-color: rgb(255, 0, 0); border-width: 3px; border-style: solid;">
+                    </div>
+                   
+                </div>
+                <div class="semlinha">
+                    <div class="colunacaixa2">
+                        <!--Colocando nome do Titulo da caixa-->
+                        <label for="nomeTxt">Perfil de Linkedin</label>
+                        <input type="text" name="nomeTxt" id="nomeTxt" class="campo" placeholder="Digite seu perfil do Linkedin"
+                            maxlength="50" readonly
+                            style="border-color: rgb(255, 0, 0); border-width: 3px; border-style: solid;">
+                    </div>
+                    <div class="colunacaixa2">
+                        <!--Colocando nome do Titulo da caixa-->
+                        <label for="nomeTxt">Perfil no Github</label>
+                        <input type="text" name="nomeTxt" id="nomeTxt" class="campo" placeholder="Digite seu Hithub"
+                            maxlength="50" readonly
+                            style="border-color: rgb(255, 0, 0); border-width: 3px; border-style: solid;">
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </form>
+        <!--Rodapé-->
+        <footer>
+            <h2>
+                <p class="rodape">2022 - Desenvolvido por Gabriel Alves</p>
+            </h2>
+        </footer>
+    </div>
+</body>
+
+</html>

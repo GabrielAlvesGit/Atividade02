@@ -1,0 +1,212 @@
+.container{
+    
+        display: flex;
+        flex-flow: column nowrap;
+        /*row coluna @ wrap= serve para manter | nowrap = serve para ajustar conforme a tela*/
+        
+        /* center / flex / -start/ flex-end*/
+        
+        
+        /*background-image: linear-gradient( #4A235A ,  #7B241C, #C0392B, #E74C3C ,#F1C40F );*/
+        
+        
+    
+    /**/
+    
+}
+header{
+   /*Sempre vai ter*/
+   display: flex;
+   /*colocando formatação para letra*/
+   font-family: Arial, Helvetica, sans-serif;
+   /*Vai deixar tudo embaixo um do outro*/
+   flex-flow: column nowrap;
+   /*row coluna @ wrap= serve para manter | nowrap = serve para ajustar conforme a tela*/
+   justify-content: center;
+   /* center / flex / -start/ flex-end*/
+   /*Vai centralizar a fonte no meio da pagina*/
+   align-items: center;
+   align-content: stretch;
+   /*Vai colocar bordas*/
+   border: 3px solid #000;
+}
+
+nav ul{
+    /*sempre vai ter que ter esse elemento*/
+    display: flex;
+    /*flex-flow: row: empilha da esquerda para direita / column: na vertical*/
+    flex-flow: row nowrap;
+    /*centralizar o Home |Produto| serviços*/
+    justify-content: center;
+    /*Vai colocar bordas
+   border: 1px solid #000;*/
+   /*Margin: distanciamento do bloco de cima da pagina*/
+    margin: 0px;
+    /*padding: Deixar a caixa maior*/
+    list-style: none;
+    height: 30px;  
+    /*padding: você manipula dentro da outra caixa*/
+    padding: 0px;
+    /*c*/
+    
+}
+ul li{
+    /*sempre vai ter que ter esse elemento*/
+    display: flex;
+    /*Altura */
+    height: 30px;
+    /*Largura*/
+    width: 100%;
+    border: 1px solid #000;
+    /*centralizar o Home |Produto| serviços*/
+    justify-content: center;
+    /*flex-flow: row: empilha da esquerda para direita / column: na vertical*/
+    flex-flow: row nowrap;
+    /*padding: Deixar a caixa maior*/
+    padding: 5px;
+    /*Margin: distanciamento do bloco de cima da pagina ou do lado*/
+    margin: 1px;
+    align-items: center;
+    
+}
+ a {
+    height: 30px;
+}
+
+nav{
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    /*vai empurra os elemntos ou seja a box*/
+    margin-bottom: 13px;
+}
+
+
+.linhacaixa{
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.colunacaixa{
+    /*Sempre tem que ter
+    display: flex; */
+    display: flex;
+    /*Criando Largura e altura para borda*/
+    flex-flow: column nowrap;
+    /*Criando Largura e altura para borda*/
+    height: 250px;
+    width: 100%;
+    /*Criando: centralizando oque tem dentro da box*/
+    align-items: center;
+     /*Criando: centralizando oque tem dentro da box(texto)*/
+    justify-content: center;
+    /*Criando uma 3px:grosura para borda+ solid:borda + #000:cor */
+    border: 1px solid #000;
+    /*Criando: Tamanho da fonte(texto) dentro da caixa*/
+    font-size: 15px;
+    /*Ajustar: Ajustar imagem e conteudo dentro da caixa*/
+    padding: 30px;
+    /*outline: 1px solid rgba(28,110,164,0.99);
+    outline-offset: 0px;*/
+    margin: 2px;
+}
+h2{
+    /*Sempre tem que ter
+    display: flex; */
+    display: flex;
+    /*Vai colocar bordas*/
+    border: 1px solid #000;
+    /*Criando Largura e altura para borda*/
+    height: 50px;
+    width: 99.5; /*sempre vai usar 100%*/
+    /*Criando: Tamanho da fonte(texto) dentro da caixa*/
+    font-size: 25px;
+    /*colocando formatação para letra*/
+    font-family: Arial, Helvetica, sans-serif;
+     /*Criando: centralizando oque tem dentro da box(texto) ficar no meio*/
+    justify-content: center;
+    /*Criando: centralizando oque tem dentro da box(texto) ficar entre em cima e(omeio) baixo */
+    align-items: center;
+    /*Criando: crinado espaço da box de cima e dando um espaço*/
+    margin: 1px; 
+}
+
+.rodape{
+    /*Criando: Tamanho da fonte(texto) dentro da caixa*/
+    font-size: 12px;
+}
+
+.colunacaixa2{
+    /*Sempre tem que ter
+    display: flex; */
+    display: flex;
+    /*Criando Largura e altura para borda*/
+    flex-flow: column nowrap ;
+    /*Criando Largura e altura para borda*/
+    height: 50px;
+    width: 100%; /*sempre vai usar 100%*/
+    margin: 1px;
+    /*Criando: centralizando oque tem dentro da box(texto) ficar entre em cima e(omeio) baixo */
+    align-items: center;
+      /*Criando: centralizando oque tem dentro da box(texto) ficar no meio*/
+    justify-content: center;
+    
+}
+form{
+    /*Sempre tem que ter
+    display: flex; */
+    display: flex;
+    /*Criando Largura e altura para borda*/
+    flex-flow: column nowrap;
+    /*Criando Largura e altura para borda*/
+    height: 250px;
+    width: 95.8%;
+    /*Criando: centralizando oque tem dentro da box*/
+    align-items: center;
+     /*Criando: centralizando oque tem dentro da box(texto)*/
+    justify-content: center;
+    /*Criando uma 3px:grosura para borda+ solid:borda + #000:cor */
+    border: 1px solid #000;
+    /*Criando: Tamanho da fonte(texto) dentro da caixa*/
+    font-size: 15px;
+    /*Ajustar: Ajustar imagem e conteudo dentro da caixa*/
+    padding: 30px;
+    /*outline: 1px solid rgba(28,110,164,0.99);
+    outline-offset: 0px;*/
+    margin: 2px;
+}
+.semlinha{
+     /*Sempre tem que ter
+    display: flex; */
+    display: flex;
+    /*Criando Largura e altura para borda*/
+    height: 250px;
+    width: 100%;
+    flex-flow: column nowrap;
+    
+}
+input{
+    height: 100px;
+    width: 100%;
+    
+}
+
+button{
+    
+    /*Criando Largura e altura para borda*/
+    height: 100px;
+    width: 100%;
+}
+.mr{
+    margin-right: 15px;
+    
+}
+.ml{
+    margin-right: 15px;  
+   
+}
+
+label{
+    background: no-repeat scroll 50% 0%;
+}
